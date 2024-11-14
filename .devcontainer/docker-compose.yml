@@ -1,0 +1,14 @@
+services:
+  ie-python:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    container_name: ie-python
+    expose: 
+      - 8888
+    stdin_open: true
+    tty: true
+    working_dir: /app
+    volumes:
+      - ../:/app
+      
