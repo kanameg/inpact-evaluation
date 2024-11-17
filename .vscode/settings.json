@@ -1,4 +1,10 @@
 {
     // VScodeのJupyterの相対パスを設定
-    "jupyter.notebookFileRoot": "${workspaceFolder}"
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "notebook.markup.fontSize": 17,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "notebook.lineNumbers": "on",
 }
