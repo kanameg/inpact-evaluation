@@ -4,6 +4,7 @@ jeraconv
 jupyterlab
 kaggle
 lightgbm
+linearmodels
 matplotlib
 numpy
 openpyxl
